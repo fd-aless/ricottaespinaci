@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fdf8f3 url('https://www.transparenttextures.com/patterns/white-paper.png');
+    margin: 0; padding: 0;
+    color: #333;
+}
+header, footer { text-align: center; padding: 1rem; }
+.logo { width: 120px; }
+nav a { margin: 0 10px; text-decoration: none; color: #4f6d55; }
+.hero { text-align: center; padding: 4rem 1rem; }
+.btn {
+    background-color: #4f6d55; color: #fff; border: none; padding: 0.8rem 1.5rem;
+    cursor: pointer; border-radius: 4px; text-decoration: none;
+}
+.btn:hover { background-color: #3f5d45; }
+main { padding: 2rem; }
+.price { font-size: 1.3rem; color: #8b6b4a; }
+.successo { text-align: center; margin-top: 100px; }

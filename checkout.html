@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><a href="index.html"><img src="img/logo.jpg" class="logo" alt="Logo"></a></header>
+    <main>
+        <h1>Completa il tuo ordine</h1>
+        <form id="checkoutForm" onsubmit="simulaPagamento(event)">
+            <label>Nome e Cognome:</label>
+            <input type="text" required>
+            <label>Indirizzo:</label>
+            <input type="text" required>
+            <label>Email:</label>
+            <input type="email" required>
+            <button class="btn" type="submit">Conferma ordine</button>
+        </form>
+    </main>
+    <footer><p>© 2025 Ricotta & Spinaci</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
